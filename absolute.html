@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http - http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <title>Topography</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<style>
+  .tick-circle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+   /* Flower-like color, feel free to change */
+  border-radius: 50%; /* Creates the circular shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(7, 239, 7); /* Tick color */
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for effect */
+}
+
+.card {
+  position: relative; /* Needed to position the circle inside the card */
+}
+</style>
+<body>
+  <div class="card" style="width: 18rem; position: relative;">
+    <div class="card-body">
+      <h5 class="card-title">Card Title</h5>
+      <p class="card-text">Some example text inside the card.</p>
+    </div>
+    <!-- Tick in a flower-like circle -->
+    <div class="tick-circle ">
+    
+      &#10003; <!-- This is the tick symbol -->
+    </div>
+  </div>
+
+  
+
+
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
